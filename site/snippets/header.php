@@ -35,6 +35,7 @@
   ?>
   <?= vite([
     'assets/css/app.css',
+    'src/css/global.css',
     'assets/css/templates/{{ page.template }}.css',
   ]) ?>
 
