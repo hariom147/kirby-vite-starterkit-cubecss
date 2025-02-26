@@ -1,6 +1,5 @@
 import { defineConfig } from 'vite';
 import laravel from 'laravel-vite-plugin';
-import postcssImportExtGlob from 'postcss-import-ext-glob';
 import postcssImport from 'postcss-import';
 import tailwindcss from 'tailwindcss';
 
@@ -14,7 +13,7 @@ export default defineConfig({
         'assets/css/templates/home.css',
         'assets/css/templates/note.css',
         'assets/js/app.js',
-        'src/css/global.css',
+        'src/css/global.js',
       ],
       refresh: [
         'site/templates/**',
@@ -22,7 +21,6 @@ export default defineConfig({
       ],
       postcss: {
         plugins: [
-          postcssImportExtGlob(),
           postcssImport(),
           tailwindcss()
         ]

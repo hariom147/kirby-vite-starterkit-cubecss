@@ -42,6 +42,7 @@
 
   <?= vite([
     'assets/js/app.js',
+    'src/css/global.js',
     'assets/js/templates/{{ page.template }}.js',
   ]) ?>
 

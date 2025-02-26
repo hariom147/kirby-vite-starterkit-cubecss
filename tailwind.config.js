@@ -23,7 +23,7 @@ const lineHeight = tokensToTailwind(textLeadingTokens.items);
 const spacing = tokensToTailwind(clampGenerator(spacingTokens.items));
 
 module.exports = {
-  content: ['./site/**/*.{html,js,jsx,mdx,njk,twig,vue}', './src/**/*.{html,js,jsx,mdx,njk,twig,vue}'],
+  content: ['./site/**/*.{html,php,js,jsx,mdx,njk,twig,vue}'],
   // Add color classes to safe list so they are always generated
   safelist: [],
   presets: [],

@@ -1,0 +1,6 @@
+/* 
+file-globs (whole subdirectories of files, ie all .css files in /css/compositions using vite can only be imported when registering them in a js file (in this case global.js) 
+and since order matters in css, we use these single files to be able to control the imports in the correct order.
+*/
+
+@import 'tailwindcss/utilities';
