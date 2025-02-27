@@ -1,3 +1,29 @@
+# Getkirby Starterkit with Laravel-Vite Plugin and CUBEcss boilerplate
+
+This is a fork of the [vite-starterkit](https://github.com/lukaskleinschmidt/vite-starterkit) provided by [lukaskleinschmidt](https://github.com/lukaskleinschmidt), that demonstrates how to implement the [laravel-vite plugin](https://github.com/lukaskleinschmidt/kirby-laravel-vite) for [Kirby CMS](getkirby.com). I adapted the [cubecss](https://cube.fyi/) [boilerplate](https://github.com/Set-Creative-Studio/cube-boilerplate) provided by [Andy Bell](https://bell.bz/) from [Set Studio](https://set.studio/).
+
+I use it for testing purposes, but of course feel free to use any part you want. 
+>[!IMPORTANT]
+>[Kirby CMS](getkirby.com) requires a license, once a project is available by a public url.
+
+### Installation
+Clone or download the repo, then run
+```
+composer install
+```
+and
+```
+npm install
+```
+Start your developement server with
+```
+npm run dev
+```
+and build your files with
+```
+npm run build
+```
+___
 <img src="http://getkirby.com/assets/images/github/starterkit.jpg" width="300">
 
 **Kirby: the CMS that adapts to any project, loved by developers and editors alike.**
